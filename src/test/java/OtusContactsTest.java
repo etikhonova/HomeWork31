@@ -1,9 +1,12 @@
 import Pages.LkProfilePage;
 import Pages.MainPage;
 import helpers.BaseUITest;
+import helpers.ContactWayList;
 import org.apache.logging.log4j.LogManager;
 import org.junit.Assert;
 import org.junit.Test;
+import java.util.Locale;
+import java.util.Random;
 
 public class OtusContactsTest extends BaseUITest {
     @Test
@@ -49,18 +52,30 @@ public class OtusContactsTest extends BaseUITest {
     public void addContactsTest(){
         org.apache.logging.log4j.Logger logger = LogManager.getLogger(OtusContactsTest.class);
         logger.info("Additional contact add and get Test started");
-            MainPage newMainPage = new MainPage(driver);
-            String contactName = "VK";
-            String contactValue = "random link";
+        MainPage newMainPage = new MainPage(driver);
         newMainPage
                 .open()
                 .openLoginForm()
                 .enterLogin("hell_me@list.ru")
                 .enterPassword("Ee12345!")
                 .submitLogin()
-                .openLkProfilePage()
-                .enterAdditionalContact(contactName, contactValue)
-                .submitProfile();
+                .openLkProfilePage();
+         ContactWayList [] contactWays= ContactWayList.values();
 
-    }
+        for (ContactWayList contactWay : contactWays){
+            Random random = new Random();
+            String contactValue = random.ints(97, 123)
+                    .limit(10)
+                    .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
+                    .toString();
+            LkProfilePage newLkProfilePage = new LkProfilePage(driver);
+            logger.info("Add contact way ="+contactWay.name().toLowerCase(Locale.ROOT)+" contact name ="+contactValue);
+            newLkProfilePage.lkPageOpen().enterAdditionalContact(contactWay.name().toLowerCase(Locale.ROOT),contactValue).submitProfile();
+
+            Assert.assertEquals(contactValue,newLkProfilePage.lkPageOpen().getAdditionalContactValue(contactWay.name().toLowerCase(Locale.ROOT)));
+        }
+        }
+
+
+
 }

@@ -1,6 +1,6 @@
 package helpers;
 
-public enum ContsctWayList {
+public enum ContactWayList {
     Facebook,
     VK,
     OK,
