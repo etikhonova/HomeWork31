@@ -3,8 +3,11 @@ package webDriverFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.safari.SafariOptions;
 
 import java.util.Locale;
 
@@ -12,7 +15,7 @@ public class WebDriverFactory {
     public static WebDriver getDriver(){
         //-Dbrowser=chrome, opera, safari, mozilla
         String browser = System.getProperty("browser");
-        String optons = System.getProperty("options");
+        String options = System.getProperty("options");
         //-Dheadless=true, false
 
         if (browser == null){
@@ -23,12 +26,16 @@ public class WebDriverFactory {
         switch (Browser.valueOf(browser.trim().toUpperCase(Locale.ROOT))){
             case CHROME:
                 WebDriverManager.chromedriver().setup();
-                return new ChromeDriver();
+                ChromeOptions optionsChrome = new ChromeOptions();
+                optionsChrome.addArguments(options);
+                return new ChromeDriver(optionsChrome);
             case FIREFOX:
                 WebDriverManager.operadriver().setup();
-                return new FirefoxDriver();
+                FirefoxOptions  optionsFirefox = new FirefoxOptions();
+                optionsFirefox.addArguments(options);
+                return new FirefoxDriver(optionsFirefox);
             case SAFARY:
-                WebDriverManager.firefoxdriver().setup();
+                WebDriverManager.safaridriver().setup();
                 return new SafariDriver();
             default:
                 System.out.println("Запустите с параметром -Dbrowser = chrome/safari/firefox");
