@@ -37,15 +37,10 @@ public class MainPage {
     }
 
     public LkProfilePage openLkProfilePage(){
-        try
-        {
-            Thread.sleep(1000);
-        } catch (InterruptedException e)
-        {
-          e.printStackTrace();
-        }
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement menuProfileLinkWait = wait.until(ExpectedConditions.visibilityOf(menuProfileLink));
         Actions actions = new Actions(driver);
-        actions.moveToElement(menuProfileLink).perform();
+        actions.moveToElement(menuProfileLinkWait).perform();
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();", menuPersonalInformationLink);
         return new LkProfilePage(driver);
