@@ -1,5 +1,6 @@
 package Pages;
 
+import helpers.PropertiesReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +9,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 
 public class LoginForm {
     public LoginForm(WebDriver driver) {
@@ -39,5 +42,17 @@ public class LoginForm {
     public MainPage submitLogin (){
         loginSubmitButton.click();
         return new MainPage(driver);
+    }
+
+    public MainPage authorise ()  {
+            PropertiesReader reader = new PropertiesReader("my.properties");
+            String login = reader.getProperty("otus.login");
+            String password = reader.getProperty("otus.password");
+            LoginForm newLoginForm = new LoginForm(driver);
+            newLoginForm
+                    .enterLogin(login)
+                    .enterPassword(password)
+                    .submitLogin();
+       return new MainPage(driver);
     }
 }

@@ -18,9 +18,7 @@ public class OtusContactsTest extends BaseUITest {
     newMainPage
             .open()
             .openLoginForm()
-            .enterLogin("hell_me@list.ru")
-            .enterPassword("Ee12345!")
-            .submitLogin()
+            .authorise()
             .openLkProfilePage()
             .enterFirstName(firstname)
             .submitProfile();
@@ -38,9 +36,7 @@ public class OtusContactsTest extends BaseUITest {
         newMainPage
                 .open()
                 .openLoginForm()
-                .enterLogin("hell_me@list.ru")
-                .enterPassword("Ee12345!")
-                .submitLogin()
+                .authorise()
                 .openLkProfilePage()
                 .enterLastName(lastname)
                 .submitProfile();
@@ -56,9 +52,7 @@ public class OtusContactsTest extends BaseUITest {
         newMainPage
                 .open()
                 .openLoginForm()
-                .enterLogin("hell_me@list.ru")
-                .enterPassword("Ee12345!")
-                .submitLogin()
+                .authorise()
                 .openLkProfilePage();
          ContactWayList [] contactWays= ContactWayList.values();
 
