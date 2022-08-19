@@ -42,7 +42,7 @@ public class LkProfilePage {
       return this;
   }
   public LkProfilePage enterFirstName (String firstName){
-      logger.info("Enter Fist Name "+firstName);
+      logger.info("Enter Fist Name {}",firstName);
       WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
       WebElement enterFirstNameWait = wait.until(ExpectedConditions.visibilityOf(firstNameField));
       enterFirstNameWait.clear();
@@ -50,7 +50,7 @@ public class LkProfilePage {
       return this;
   }
   public LkProfilePage enterLastName (String lastName){
-      logger.info("Enter Last Name " + lastName);
+      logger.info("Enter Last Name {}", lastName);
       WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
       WebElement enterLastNameWait = wait.until(ExpectedConditions.visibilityOf(lastNameField));
       enterLastNameWait.clear();

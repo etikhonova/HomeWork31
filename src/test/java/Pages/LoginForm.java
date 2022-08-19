@@ -46,8 +46,8 @@ public class LoginForm {
 
     public MainPage authorise ()  {
             PropertiesReader reader = new PropertiesReader("my.properties");
-            String login = reader.getProperty("otus.login");
-            String password = reader.getProperty("otus.password");
+            String login = System.getProperty("login");
+            String password = System.getProperty("password");
             LoginForm newLoginForm = new LoginForm(driver);
             newLoginForm
                     .enterLogin(login)
