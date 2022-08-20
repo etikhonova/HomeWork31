@@ -2993,3 +2993,185 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 2022-08-19 16:39:16,463 INFO P.LkProfilePage [main] Get First Name
 2022-08-19 16:39:16,508 TRACE i.n.h.c.h.w.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
 2022-08-19 16:39:16,691 INFO h.BaseUITest [main] Driver set down
+2022-08-19 18:50:26,744 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2022-08-19 18:50:26,752 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2022-08-19 18:50:26,753 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
+2022-08-19 18:50:26,757 DEBUG i.n.u.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3b0c9195
+2022-08-19 18:50:26,773 DEBUG i.n.u.i.PlatformDependent0 [main] -Dio.netty.noUnsafe: false
+2022-08-19 18:50:26,773 DEBUG i.n.u.i.PlatformDependent0 [main] Java version: 8
+2022-08-19 18:50:26,774 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
+2022-08-19 18:50:26,775 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
+2022-08-19 18:50:26,775 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.storeFence: available
+2022-08-19 18:50:26,776 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Buffer.address: available
+2022-08-19 18:50:26,776 DEBUG i.n.u.i.PlatformDependent0 [main] direct buffer constructor: available
+2022-08-19 18:50:26,777 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Bits.unaligned: available, true
+2022-08-19 18:50:26,777 DEBUG i.n.u.i.PlatformDependent0 [main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-08-19 18:50:26,777 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.DirectByteBuffer.<init>(long, int): available
+2022-08-19 18:50:26,777 DEBUG i.n.u.i.PlatformDependent [main] sun.misc.Unsafe: available
+2022-08-19 18:50:26,778 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.tmpdir: C:\Users\hellme\AppData\Local\Temp (java.io.tmpdir)
+2022-08-19 18:50:26,778 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-08-19 18:50:26,778 DEBUG i.n.u.i.PlatformDependent [main] Platform: Windows
+2022-08-19 18:50:26,779 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.maxDirectMemory: 3797417984 bytes
+2022-08-19 18:50:26,779 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-08-19 18:50:26,780 DEBUG i.n.u.i.CleanerJava6 [main] java.nio.ByteBuffer.cleaner(): available
+2022-08-19 18:50:26,780 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.noPreferDirect: false
+2022-08-19 18:50:26,789 DEBUG i.n.u.i.PlatformDependent [main] org.jctools-core.MpscChunkedArrayQueue: available
+2022-08-19 18:50:26,806 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-08-19 18:50:26,806 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-08-19 18:50:26,820 DEBUG i.n.h.s.JdkSslContext [main] Default protocols (JDK): [TLSv1.2] 
+2022-08-19 18:50:26,821 DEBUG i.n.h.s.JdkSslContext [main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-08-19 18:50:26,846 DEBUG i.n.c.MultithreadEventLoopGroup [main] -Dio.netty.eventLoopThreads: 12
+2022-08-19 18:50:26,859 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.noKeySetOptimization: false
+2022-08-19 18:50:26,860 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-08-19 18:50:26,876 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5b057c8c
+2022-08-19 18:50:26,878 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5b7ea70d
+2022-08-19 18:50:26,879 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2bef51f2
+2022-08-19 18:50:26,879 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@650eab8
+2022-08-19 18:50:26,880 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@30f5a68a
+2022-08-19 18:50:26,881 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1e1d3956
+2022-08-19 18:50:26,881 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4f2c9ba6
+2022-08-19 18:50:26,882 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4e28bdd1
+2022-08-19 18:50:26,883 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@53f48368
+2022-08-19 18:50:26,884 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@24d4d7c9
+2022-08-19 18:50:26,884 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@f0e995e
+2022-08-19 18:50:26,886 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4c37b5b
+2022-08-19 18:50:26,908 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numHeapArenas: 12
+2022-08-19 18:50:26,908 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numDirectArenas: 12
+2022-08-19 18:50:26,908 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.pageSize: 8192
+2022-08-19 18:50:26,908 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxOrder: 9
+2022-08-19 18:50:26,908 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.chunkSize: 4194304
+2022-08-19 18:50:26,908 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.smallCacheSize: 256
+2022-08-19 18:50:26,908 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.normalCacheSize: 64
+2022-08-19 18:50:26,908 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-08-19 18:50:26,909 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-08-19 18:50:26,909 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-08-19 18:50:26,909 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.useCacheForAllThreads: false
+2022-08-19 18:50:26,910 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-08-19 18:50:26,923 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.allocator.type: pooled
+2022-08-19 18:50:26,923 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.threadLocalDirectBufferSize: 0
+2022-08-19 18:50:26,924 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-08-19 18:50:27,683 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 20132 (auto-detected)
+2022-08-19 18:50:27,685 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2022-08-19 18:50:27,685 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2022-08-19 18:50:27,844 DEBUG i.n.u.NetUtilInitializations [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-08-19 18:50:27,845 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-08-19 18:50:28,015 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 54:18:f4:ff:fe:4a:2a:02 (auto-detected)
+2022-08-19 18:50:28,064 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-1-2] -Dio.netty.buffer.checkAccessible: true
+2022-08-19 18:50:28,065 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-1-2] -Dio.netty.buffer.checkBounds: true
+2022-08-19 18:50:28,065 DEBUG i.n.u.ResourceLeakDetectorFactory [AsyncHttpClient-1-2] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1b97ecba
+2022-08-19 18:50:28,083 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-08-19 18:50:28,083 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.ratio: 8
+2022-08-19 18:50:28,083 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.chunkSize: 32
+2022-08-19 18:50:28,083 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.blocking: false
+2022-08-19 18:50:29,728 DEBUG i.n.h.c.c.Brotli [AsyncHttpClient-1-2] brotli4j not in the classpath; Brotli support will be unavailable.
+2022-08-19 18:50:29,843 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0x2bed0d82f5d3d257
+2022-08-19 18:50:29,939 INFO h.BaseUITest [main] Driver set up
+2022-08-19 18:50:29,939 INFO OtusContactsTest [main] First name add and get Test started
+2022-08-19 18:50:38,706 TRACE i.n.h.c.h.w.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2022-08-19 18:50:39,409 INFO h.BaseUITest [main] Driver set down
+2022-08-19 18:50:40,649 INFO h.BaseUITest [main] Driver set up
+2022-08-19 18:50:40,649 INFO OtusContactsTest [main] Additional contact add and get Test started
+2022-08-19 18:50:49,447 TRACE i.n.h.c.h.w.WebSocket08FrameEncoder [AsyncHttpClient-1-7] Encoding WebSocket Frame opCode=8 length=26
+2022-08-19 18:50:50,146 INFO h.BaseUITest [main] Driver set down
+2022-08-19 18:50:51,413 INFO h.BaseUITest [main] Driver set up
+2022-08-19 18:50:51,413 INFO OtusContactsTest [main] Last name add and get Test started
+2022-08-19 18:50:59,311 TRACE i.n.h.c.h.w.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2022-08-19 18:51:00,012 INFO h.BaseUITest [main] Driver set down
+2022-08-19 22:56:53,274 DEBUG i.n.u.i.l.InternalLoggerFactory [main] Using Log4J2 as the default logging framework
+2022-08-19 22:56:53,282 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.level: simple
+2022-08-19 22:56:53,282 DEBUG i.n.u.ResourceLeakDetector [main] -Dio.netty.leakDetection.targetRecords: 4
+2022-08-19 22:56:53,285 DEBUG i.n.u.ResourceLeakDetectorFactory [main] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4bff64c2
+2022-08-19 22:56:53,302 DEBUG i.n.u.i.PlatformDependent0 [main] -Dio.netty.noUnsafe: false
+2022-08-19 22:56:53,302 DEBUG i.n.u.i.PlatformDependent0 [main] Java version: 8
+2022-08-19 22:56:53,304 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
+2022-08-19 22:56:53,304 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
+2022-08-19 22:56:53,305 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.storeFence: available
+2022-08-19 22:56:53,305 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Buffer.address: available
+2022-08-19 22:56:53,305 DEBUG i.n.u.i.PlatformDependent0 [main] direct buffer constructor: available
+2022-08-19 22:56:53,306 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Bits.unaligned: available, true
+2022-08-19 22:56:53,306 DEBUG i.n.u.i.PlatformDependent0 [main] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-08-19 22:56:53,306 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.DirectByteBuffer.<init>(long, int): available
+2022-08-19 22:56:53,306 DEBUG i.n.u.i.PlatformDependent [main] sun.misc.Unsafe: available
+2022-08-19 22:56:53,307 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.tmpdir: C:\Users\hellme\AppData\Local\Temp (java.io.tmpdir)
+2022-08-19 22:56:53,307 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-08-19 22:56:53,307 DEBUG i.n.u.i.PlatformDependent [main] Platform: Windows
+2022-08-19 22:56:53,308 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.maxDirectMemory: 3797417984 bytes
+2022-08-19 22:56:53,308 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-08-19 22:56:53,309 DEBUG i.n.u.i.CleanerJava6 [main] java.nio.ByteBuffer.cleaner(): available
+2022-08-19 22:56:53,309 DEBUG i.n.u.i.PlatformDependent [main] -Dio.netty.noPreferDirect: false
+2022-08-19 22:56:53,316 DEBUG i.n.u.i.PlatformDependent [main] org.jctools-core.MpscChunkedArrayQueue: available
+2022-08-19 22:56:53,333 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-08-19 22:56:53,333 DEBUG i.n.u.i.InternalThreadLocalMap [main] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-08-19 22:56:53,345 DEBUG i.n.h.s.JdkSslContext [main] Default protocols (JDK): [TLSv1.2] 
+2022-08-19 22:56:53,346 DEBUG i.n.h.s.JdkSslContext [main] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-08-19 22:56:53,375 DEBUG i.n.c.MultithreadEventLoopGroup [main] -Dio.netty.eventLoopThreads: 12
+2022-08-19 22:56:53,382 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.noKeySetOptimization: false
+2022-08-19 22:56:53,382 DEBUG i.n.c.n.NioEventLoop [main] -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-08-19 22:56:53,391 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@73db4768
+2022-08-19 22:56:53,392 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@150ab4ed
+2022-08-19 22:56:53,392 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3c435123
+2022-08-19 22:56:53,393 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@50fe837a
+2022-08-19 22:56:53,393 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3a62c01e
+2022-08-19 22:56:53,394 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7a8fa663
+2022-08-19 22:56:53,394 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5ce33a58
+2022-08-19 22:56:53,395 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@78a287ed
+2022-08-19 22:56:53,395 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@546ccad7
+2022-08-19 22:56:53,395 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5357c287
+2022-08-19 22:56:53,397 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1623134f
+2022-08-19 22:56:53,397 TRACE i.n.c.n.NioEventLoop [main] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7a527389
+2022-08-19 22:56:53,415 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numHeapArenas: 12
+2022-08-19 22:56:53,415 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.numDirectArenas: 12
+2022-08-19 22:56:53,415 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.pageSize: 8192
+2022-08-19 22:56:53,415 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxOrder: 9
+2022-08-19 22:56:53,415 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.chunkSize: 4194304
+2022-08-19 22:56:53,415 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.smallCacheSize: 256
+2022-08-19 22:56:53,415 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.normalCacheSize: 64
+2022-08-19 22:56:53,416 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-08-19 22:56:53,416 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-08-19 22:56:53,416 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-08-19 22:56:53,416 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.useCacheForAllThreads: false
+2022-08-19 22:56:53,416 DEBUG i.n.b.PooledByteBufAllocator [main] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-08-19 22:56:53,425 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.allocator.type: pooled
+2022-08-19 22:56:53,425 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.threadLocalDirectBufferSize: 0
+2022-08-19 22:56:53,425 DEBUG i.n.b.ByteBufUtil [main] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-08-19 22:56:54,167 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.processId: 16676 (auto-detected)
+2022-08-19 22:56:54,168 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+2022-08-19 22:56:54,168 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+2022-08-19 22:56:54,330 DEBUG i.n.u.NetUtilInitializations [Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-08-19 22:56:54,330 DEBUG i.n.u.NetUtil [Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-08-19 22:56:54,495 DEBUG i.n.c.DefaultChannelId [Forwarding newSession on session null to remote] -Dio.netty.machineId: 4c:ed:fb:ff:fe:7a:03:82 (auto-detected)
+2022-08-19 22:56:54,534 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-1-2] -Dio.netty.buffer.checkAccessible: true
+2022-08-19 22:56:54,534 DEBUG i.n.b.AbstractByteBuf [AsyncHttpClient-1-2] -Dio.netty.buffer.checkBounds: true
+2022-08-19 22:56:54,534 DEBUG i.n.u.ResourceLeakDetectorFactory [AsyncHttpClient-1-2] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@303a92a5
+2022-08-19 22:56:54,556 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-08-19 22:56:54,556 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.ratio: 8
+2022-08-19 22:56:54,556 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.chunkSize: 32
+2022-08-19 22:56:54,556 DEBUG i.n.u.Recycler [AsyncHttpClient-1-2] -Dio.netty.recycler.blocking: false
+2022-08-19 22:56:55,824 DEBUG i.n.h.c.c.Brotli [AsyncHttpClient-1-2] brotli4j not in the classpath; Brotli support will be unavailable.
+2022-08-19 22:56:55,919 DEBUG i.n.u.i.ThreadLocalRandom [main] -Dio.netty.initialSeedUniquifier: 0x0d49b2226c9d27af
+2022-08-19 22:56:55,951 INFO h.BaseUITest [main] Driver set up
+2022-08-19 22:56:55,952 INFO OtusContactsTest [main] First name add and get Test started
+2022-08-19 22:57:02,736 INFO P.LkProfilePage [main] Enter Fist Name Елена
+2022-08-19 22:57:05,500 INFO P.LkProfilePage [main] Submit Profile
+2022-08-19 22:57:05,501 INFO P.LkProfilePage [main] Open LK profile page
+2022-08-19 22:57:06,865 INFO P.LkProfilePage [main] Get First Name
+2022-08-19 22:57:06,926 TRACE i.n.h.c.h.w.WebSocket08FrameEncoder [AsyncHttpClient-1-4] Encoding WebSocket Frame opCode=8 length=26
+2022-08-19 22:57:07,629 INFO h.BaseUITest [main] Driver set down
+2022-08-19 22:57:08,911 INFO h.BaseUITest [main] Driver set up
+2022-08-19 22:57:08,911 INFO OtusContactsTest [main] Additional contact add and get Test started
+2022-08-19 22:57:15,412 INFO OtusContactsTest [main] Add contact way =facebook contact name =tsyxgdhwui
+2022-08-19 22:57:15,412 INFO P.LkProfilePage [main] Open LK profile page
+2022-08-19 22:57:17,217 INFO P.LkProfilePage [main] Enter new Contact
+2022-08-19 22:57:18,926 INFO P.LkProfilePage [main] Submit Profile
+2022-08-19 22:57:18,926 INFO P.LkProfilePage [main] Open LK profile page
+2022-08-19 22:57:20,222 INFO P.LkProfilePage [main] Current Value =ztughcmtqi
+2022-08-19 22:57:20,233 TRACE i.n.h.c.h.w.WebSocket08FrameEncoder [AsyncHttpClient-1-7] Encoding WebSocket Frame opCode=8 length=26
+2022-08-19 22:57:20,920 INFO h.BaseUITest [main] Driver set down
+2022-08-19 22:57:22,180 INFO h.BaseUITest [main] Driver set up
+2022-08-19 22:57:22,180 INFO OtusContactsTest [main] Last name add and get Test started
+2022-08-19 22:57:28,929 INFO P.LkProfilePage [main] Enter Last Name Тихонова
+2022-08-19 22:57:31,348 INFO P.LkProfilePage [main] Submit Profile
+2022-08-19 22:57:31,349 INFO P.LkProfilePage [main] Open LK profile page
+2022-08-19 22:57:32,962 INFO P.LkProfilePage [main] Get Last Name
+2022-08-19 22:57:33,001 TRACE i.n.h.c.h.w.WebSocket08FrameEncoder [AsyncHttpClient-1-10] Encoding WebSocket Frame opCode=8 length=26
+2022-08-19 22:57:33,683 INFO h.BaseUITest [main] Driver set down

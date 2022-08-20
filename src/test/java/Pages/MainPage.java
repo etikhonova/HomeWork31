@@ -1,5 +1,6 @@
 package Pages;
 
+import helpers.PropertiesReader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -47,7 +48,8 @@ public class MainPage {
     }
 
     public MainPage open (){
-        driver.get("https://otus.ru/");
+        PropertiesReader reader = new PropertiesReader("my.properties");
+        driver.get(reader.getProperty("otus.main.link"));
         return this;
     }
 }

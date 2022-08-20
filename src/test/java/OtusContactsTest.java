@@ -63,7 +63,7 @@ public class OtusContactsTest extends BaseUITest {
                     .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
                     .toString();
             LkProfilePage newLkProfilePage = new LkProfilePage(driver);
-            logger.info("Add contact way ="+contactWay.name().toLowerCase(Locale.ROOT)+" contact name ="+contactValue);
+            logger.info("Add contact way {} contact name {}",contactWay.name().toLowerCase(Locale.ROOT),contactValue);
             newLkProfilePage.lkPageOpen().enterAdditionalContact(contactWay.name().toLowerCase(Locale.ROOT),contactValue).submitProfile();
 
             Assert.assertEquals(contactValue,newLkProfilePage.lkPageOpen().getAdditionalContactValue(contactWay.name().toLowerCase(Locale.ROOT)));

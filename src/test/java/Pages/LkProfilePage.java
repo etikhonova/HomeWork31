@@ -98,7 +98,7 @@ public class LkProfilePage {
       String xpathForContactValueArea = "(//div[./div[./label[./input[@value='"+contactName+"']]]]/input)[last()]";
       WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
       WebElement contactValueTextAreaWait = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath(xpathForContactValueArea))));
-      logger.info("Current Value ="+contactValueTextAreaWait.getAttribute("value"));
+      logger.info("Current Value {}",contactValueTextAreaWait.getAttribute("value"));
   return  contactValueTextAreaWait.getAttribute("value");
   }
 

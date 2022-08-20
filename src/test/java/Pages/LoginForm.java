@@ -45,7 +45,6 @@ public class LoginForm {
     }
 
     public MainPage authorise ()  {
-            PropertiesReader reader = new PropertiesReader("my.properties");
             String login = System.getProperty("login");
             String password = System.getProperty("password");
             LoginForm newLoginForm = new LoginForm(driver);
